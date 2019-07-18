@@ -21,10 +21,10 @@ public class HelloSpringApplication {
 //		SpringApplication.run(HelloSpringApplication.class, args);
 	}
 
-//	@RequestMapping("/hello")
-//	private String hello(){
-//		return "Hello Spring";
-//	}
+	@RequestMapping("/hello")
+	private String hello(){
+		return "Hello Spring";
+	}
 
 
 }
